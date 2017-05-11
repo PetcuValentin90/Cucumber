@@ -1,0 +1,478 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3510560252,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search for a product",
+        "description": "",
+        "id": "search-product;search-for-a-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 100852,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterFailedScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1005776243,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3643495947,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page \"http://emag.ro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://emag.ro",
+                  "offset": 19
+                }
+              ],
+              "location": "ProductSearch.iNavigateToUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4026240315,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a product \"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iphone",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductSearch.iSearchForProduct(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2112263672,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see respective product in title \"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iphone",
+                  "offset": 35
+                }
+              ],
+              "location": "ProductSearch.iSeeProductInTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@live"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2093176724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search for a product",
+        "description": "",
+        "id": "search-product;search-for-a-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 16511,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterFailedScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 948277547,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3547234307,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page \"http://emag.ro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://emag.ro",
+                  "offset": 19
+                }
+              ],
+              "location": "ProductSearch.iNavigateToUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3805439593,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a product \"laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptop",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductSearch.iSearchForProduct(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2122380576,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see respective product in title \"laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "laptop",
+                  "offset": 35
+                }
+              ],
+              "location": "ProductSearch.iSeeProductInTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@live"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2062564511,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search for a product",
+        "description": "",
+        "id": "search-product;search-for-a-product;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 20528,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterFailedScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 922259464,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3165515866,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page \"http://emag.ro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://emag.ro",
+                  "offset": 19
+                }
+              ],
+              "location": "ProductSearch.iNavigateToUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3032690839,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a product \"aragaz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aragaz",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductSearch.iSearchForProduct(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2127063510,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see respective product in title \"aragaz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aragaz",
+                  "offset": 35
+                }
+              ],
+              "location": "ProductSearch.iSeeProductInTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@live"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1980794349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Search for a product",
+        "description": "",
+        "id": "search-product;search-for-a-product;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 134767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterFailedScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 873496087,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3260694907,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page \"http://emag.ro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://emag.ro",
+                  "offset": 19
+                }
+              ],
+              "location": "ProductSearch.iNavigateToUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3096096529,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a product \"masina de tuns\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "masina de tuns",
+                  "offset": 24
+                }
+              ],
+              "location": "ProductSearch.iSearchForProduct(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2115988510,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.ro.Elements.checkProductInTitle(Elements.java:29)\r\n\tat com.ro.StepsDef.ProductSearch.iSeeProductInTitle(ProductSearch.java:33)\r\n\tat ✽.Then I see respective product in title \"masina de tuns\"(src/test/resources/features/searchProduct.feature:9)\r\n",
+              "status": "failed"
+            },
+            "output": [
+              "Print to report"
+            ],
+            "line": 9,
+            "name": "I see respective product in title \"masina de tuns\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "masina de tuns",
+                  "offset": 35
+                }
+              ],
+              "location": "ProductSearch.iSeeProductInTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@live"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Search product",
+    "description": "As a end user I want to search a product and add to cart",
+    "id": "search-product",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/searchProduct.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@live"
+      }
+    ]
+  }
+]
